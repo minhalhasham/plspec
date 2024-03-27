@@ -9,7 +9,7 @@ def load_files(file_pattern):
     return data
 
 
-
+pattern = '*.dat'
 if __name__ == '__main__':
-    data = load_files('*.dat')
+    data = load_files(pattern)
     print(data)
